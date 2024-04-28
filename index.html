@@ -14,90 +14,106 @@
 
 <body>
     <header>
+        
         <!-- Optional JavaScript -->
         <!-- jQuery first, then Popper.js, then Bootstrap JS -->
         <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-        <h1>Maxime de Montbron</h1>
         
-    
+        <!--introduction-->
+    <div class="col-sm-12">
+        <h1>Maxime de Montbron</h1>
         <h2>Aspiring Pentester / Cybersecurity Specialist</h2>
-        <p>Contact: +33 07 49 25 89 72, <a href="mailto:mdemontbron@gmail.com">mdemontbron@gmail.com</a> 
+        <p>Contact: +33 7 49 25 89 72, <a href="mailto:mdemontbron@gmail.com">mdemontbron@gmail.com</a> 
         <br>2764 Chemin de Serres 64310 Saint-Pée-Sur-Nivelle</p>
-    </header>
+    </div>
+    <div class="col-sm-6">
+        <img src="selfie.png"> 
+    </div>
+        
 
-    <section id="experience">
+    </header>
+    
+    <div id="experience" class="col-sm-12">
+        
         <h2>Expérience Professionnelle</h2>
 
-        <article>
-            <h3>Interne en Data-Science</h3>
-            <h4>Menzies Media</h4>
-            <p>
-                Chez Menzies Media, mon rôle en temps qu'interne en Data-Science était
-                de créer un tableau de bord avec MS PowerBI pour visualiser les données
-                de l'équipe de vente par téléphone et du système de vente en ligne (site +
-                Google Ads) d'une agence d'assurance (Oaksure Financial Services). J'ai
-                également utilisé le language DAX (intégré dans PowerBI) pour aider à
-                trouver des nouvelles données à partir de celles qui ont étés fournies.
-                J'ai ensuite aidé Oaksure à optimiser leur campagne de Google Ads, et de
-                mettre en place un système qui track les données de ventes plus
-                précisément (Click Through Rate, Conversion Rate, Cost Per Click etc.)
-                Simultanément j'ai complété des formations de Data Science sponsorisé
-                par l'entreprise.
-            </p>
-        <!--above paragraph can be shortened. Include images for Power BI, DAX, Google Ads-->
-        </article>
-
-        <article>
-            <h3>Consultant Interne en Cybersecurité</h3>
-            <div class = "company" id = "MWR Infosecurity">
-                
-            </div>
-            <h4>MWR Infosecurity</h4>
+                                            
+        <h4>Data Science Intern at Menzies Media</h4>
+        <h5>2019</h5>
+                    
+            <p> At <a href="https://menzies.media">Menzies</a>, my job was to </p>
+            <ul>
+                <li>
+                    Create PowerBI Dashboards for call-centre employee performance tracking.
+                </li>
+                <li>
+                     Manage Google Ads campaign and SEO.
+                </li>
+                <li>
+                    Create landing pages and implemented functionality to track Click Through Rate, Conversion Rate, etc.
+                </li>
+                <li>
+                    Complete various data-science related Udemy courses simultaneously while working.
+                </li>                    
+                        
+            </ul>
             
-            <p>
-                Chez MWR, mon rôle en temps que consultant interne en cybersécurité était
-                d'assister à des cours et demonstrations données par des consultants
-                expérimentés et ensuite appliquer ce que j'ai appris sur un site web
-                appartenant à MWR qui était vulnerable par design. Le défi était de trouver
-                un maximum de vulnérabilités sur leur site web et ensuite rédiger un rapport
-                et le presenter en simulation, comme si je montrais à un vrai client ce aui
-                n'allait pas avec son site web. J'ai trouvé 10 vulnérabilités majeures, par
-                exemple Injection-SQL, Cross-Site-Scripting (XSS)et j'ai réussi à obtenir un
-                accès au serveur Linux avec l'aide d'un PHP-reverse-shell (shell inversé).
-            </p>
+        <article>
+            <h4>Cybersecurity Consultant Intern at MWR InfoSecurity</h4>
+            <p> At MWR, I did a short 2 week paid internship where a handful of other students and I <b>practiced penetration testing techniques</b> on 
+                a purposefully vulnerable website.</p>
+                 
+            <p>We had to <b>find 10 vulnerabilities</b> on the website and write a written report and powerpoint presentation on how to patch the vulnerabilities.</p>
+                <p>Vulnerabilities I found included XSS, SQL Injection, Broken Authentication, Broken Access control, and the one I'm most proud of, <b>PHP-reverse-shell by uploading a malicious file.</b>
+           </p>
+           <p> Every morning we had a demo from a researcher at the company showcasing an exploit they had discovered.</p> 
             
             
         </article>
 
+    </div>
+    
 
-    </section>
 
-
-
-    <section id="skills">
-        <h2>Compétences</h2>
+    <div id="skills" class="col-sm-6">
+    
+        <h4>Skills</h4>
         <ul>
-            <li>GénéraleWeb</li>
             <li>Python</li>
-            <li>Web Design</li>
-            <li>MS Azure ML</li>
+            <li>SQL</li>
+            <li>C/C++</li>
+            <li>ASM</li>
+            <li>Bash</li>
+            <li>HTML5</li>
+            <li>Bootstrap</li>
+            <li>Microsoft PowerBI</li>
+            <li>Kali Linux</li>
+            <li>Ubuntu</li>
             <!-- Add more skills as needed -->
         </ul>
-    </section>
-
-    <section id="education">
-        <h2>Scolarité</h2>
+    
+    
+    </div>
+    <div id="education" class="col-sm-6">
+        <h2>Education</h2>
         <article>
-            <h3>Bachelor of Science</h3>
+            <h4>Bachelor of Science in Computing</h4>
             <p>UNISA, 2014 - 2018</p>
         </article>
         <!-- Add more education entries as needed -->
-    </section>
+    </div>
 
-    <!-- Add more sections for other parts of the CV such as Langues, Intérêts, etc. -->
-
+    <!-- Add more divs for other parts of the CV such as Langues, Intérêts, etc. -->
+    <div id="about" class="col-sm-6">
+        <h3><a href="about.html" >About me</a></h3>
+        <p>I am a Computer Science graduate from UNISA who just wants to understand how stuff works whether the technology is viewed from a high-level
+             (with details abstracted away) or a low-level, where each detail is taken into consideration.</p>
+        <p>I am currently working on obtaining the CompTIA Network+ and Security+ certifications.</p>
+        <p>I'm a curious minded individual and I'm interested in learning how to make and modify software for pen-testing purposes and hardware for red-teaming.</p>
+        <p>I love music, zen video games, chess, and arena FPS shooters.</p>
+    </div>
     <footer>
         <p>&copy; 2024 Maxime de Montbron</p>
     </footer>
